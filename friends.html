@@ -24,13 +24,13 @@
       </div>
     </div>
 
-    <header class="header">
-      <h1 class="header__title">Friends</h1>
-      <ul class="header__list">
-        <li class="header__btn"><a class="header__link" href="#">search</a></li>
-        <li class="header__btn"><a class="header__link" href="#">sing</a></li>
-        <li class="header__btn"><a class="header__link" href="#">setting</a></li>
-      </ul>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
+        <span><i class="fas fa-cog fa-2x"></i></span>
+      </div>
     </header>
 
     <!-- Friends; Names Display -->
@@ -41,19 +41,31 @@
       <div class="profile__friends-profile"></div>
     </main>
 
+    <a id="friends-display-link"> <i class="fas fa-info-circle"></i>Friends' Names Display</a>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"><i class="fas fa-solid fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-solid fa-comment fa-2x"></i></a>
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fas fa-solid fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-sharp fa-solid fa-magnifying-glass fa-2x"></i></a>
+          <a class="nav__link" href="#">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-regular fa-ellipsis-stroke fa-2x"></i></a>
+          <a class="nav__link" href="#">
+            <span class="nav__notification-2"></span>
+            <!-- <i class="fas fa-regular fa-ellipsis-stroke fa-2x"></i> -->
+            <!-- <i class="fas fa-solid fa-comment fa-2x"></i> -->
+            <i class="fas fa-ellipsis-stroke"></i>
+          </a>
         </li>
       </ul>
     </nav>

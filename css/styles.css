@@ -2,33 +2,13 @@
 @import "/css/variables.css";
 @import "/css/reset.css";
 @import "/css/components/status-bar.css";
-@import "/css/screens/login.css";
+@import "/css/components/screen-header.css";
 @import "/css/components/nav-bar.css";
+
+@import "/css/screens/login.css";
+@import "/css/screens/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-}
-
-.header {
-  display: flex;
-  position: relative;
-  top: 55px;
-  padding: 0 20px;
-}
-
-.header__title {
-  font-size: 25px;
-  font-weight: 900;
-}
-
-.header__list {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.header__btn {
-  padding: 0 5px;
 }
