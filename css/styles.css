@@ -4,11 +4,13 @@
 @import "/css/components/status-bar.css";
 @import "/css/components/screen-header.css";
 @import "/css/components/nav-bar.css";
+@import "/css/components/user-component.css";
 
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
 
 body {
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
 }
