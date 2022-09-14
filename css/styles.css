@@ -5,6 +5,7 @@
 @import "/css/components/screen-header.css";
 @import "/css/components/nav-bar.css";
 @import "/css/components/user-component.css";
+@import "/css/components/badge.css";
 
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
