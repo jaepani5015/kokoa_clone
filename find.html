@@ -2,10 +2,11 @@
 <html lang="kr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Find - KokoaTalk</title>
+    <link href="css/screens/find.css" rel="stylesheet">
   </head>
   <body>
     <!-- status-bar -->
@@ -49,7 +50,27 @@
 
       <div class="recomended-friends">
         <h6 class="recommended-friends__title">Recomended Friends</h6>
-        <span>You have no recommended friends.</span>
+        <span>You have no recommended friends. <i class="fas fa-chevron-right fa-xs"></i></span>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span>Go to Openchat Home</span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img alt="" src="https://avatars.githubusercontent.com/u/63032061?v=4 ">
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column"></div>
+        </div>
       </div>
     </main>
 
@@ -82,5 +103,5 @@
       </ul>
     </nav>
   </body>
-  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/6478f529f2.js"></script>
 </html>
