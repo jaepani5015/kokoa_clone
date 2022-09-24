@@ -6,28 +6,30 @@
 @import "/css/components/nav-bar.css";
 @import "/css/components/user-component.css";
 @import "/css/components/badge.css";
+@import "/css/components/icon-row.css";
 
 @import "/css/screens/login.css";
 @import "/css/screens/friends.css";
 @import "/css/screens/find.css";
+@import "/css/screens/more.css";
 
 body {
-  color: #000000;
-  font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    height: 1000vh;
 }
 
 .main-screen {
-  padding: 0px var(--horizontal-space);
+    padding: 0px var(--horizontal-space);
 }
 
 .screen-header__dot {
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  right: 20px;
-  top: 50px;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50px;
 }
