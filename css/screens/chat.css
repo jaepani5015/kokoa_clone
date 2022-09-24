@@ -16,6 +16,22 @@
     top: 10px;
 }
 
-.main-chat .chat__timestamp {
+.main-chat {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*.main-chat .chat__timestamp {*/
+/*    margin-top: 150px;*/
+/*}*/
+
+.chat__timestamp {
+    color: white;
+    background-color: #92a4b2;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 14px;
 }
